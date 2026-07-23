@@ -1,7 +1,28 @@
 aid: aseon-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aseon-labs.png
 name: Aseon Labs
-description: Aseon Labs is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aseon Labs builds robotic pitstops for self-driving cars — distributed robotic
+  micro-depots (the "Aseon Pod") that automate charging, interior and exterior
+  cleaning, and inspection for autonomous vehicle fleets directly within their
+  operating zones, so vehicles reset locally instead of returning to centralized
+  facilities. The company says the approach can cut reset costs by up to 50%,
+  reduce downtime by ~65%, and add $50,000+ in annual revenue per vehicle.
+  Founded in 2026 and backed by Y Combinator (Spring 2026 batch), the Redwood
+  City, CA startup is a physical-infrastructure and robotics company; it does not
+  currently publish a public API, developer portal, or machine-readable API
+  specifications.
 url: https://raw.githubusercontent.com/api-evangelist/aseon-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,45 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: robotics-autonomous-vehicles
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Robotics
+- Autonomous Vehicles
+- Fleet Operations
+- Infrastructure
+- Logistics Automation
+- EV Charging
 apis: []
+common:
+- type: Website
+  name: Aseon Labs
+  url: https://www.aseonlabs.com/
+- type: TermsOfService
+  name: Terms of Use
+  url: https://www.aseonlabs.com/terms
+- type: PrivacyPolicy
+  name: Privacy Policy
+  url: https://www.aseonlabs.com/privacy
+- type: LinkedIn
+  name: LinkedIn
+  url: https://www.linkedin.com/company/aseon-labs
+- type: Twitter
+  name: X (Twitter)
+  url: https://x.com/aseonlabs
+- type: Crunchbase
+  name: Y Combinator Profile
+  url: https://www.ycombinator.com/companies/aseon-labs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
